@@ -2,7 +2,7 @@
 
 > A horizontally scalable, real-time chat engine designed for millions of users, built with .NET microservices, Kafka, gRPC, WebSocket, YugabyteDB, Cassandra, Redis, MinIO and OpenTelemetry.
 
-Developed by **Evangelos Vlachos**.
+Developed by **Ioannis Vlachos**.
 
 ## Table of Contents
 
@@ -181,4 +181,4 @@ Diagrams are in `docs/diagrams` and open with [draw.io](https://app.diagrams.net
 
 ## CI
 
-GitHub Actions workflows in `.github/workflows` build the solution, enforce the `.editorconfig` code style with `dotnet format`, run SonarCloud analysis, and build and push the service images to Docker Hub under the `evangelosvlachos96/` namespace. Set the `SONAR_TOKEN` and Docker Hub secrets in the repository settings before enabling them.
+GitHub Actions workflows in `.github/workflows` build the solution, enforce the `.editorconfig` code style with `dotnet format`, run SonarCloud analysis, and build and push the service images to Docker Hub under the `ioannisvlachos/` namespace. Set the `SONAR_TOKEN` and Docker Hub secrets in the repository settings before enabling them.
